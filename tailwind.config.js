@@ -14,14 +14,9 @@ module.exports = {
     },
   },
   plugins: [
-    function ({addUtilities}) {
-      const extendUnderline = {
-        '.underline': {
-          'textDecoration': 'underline',
-          'text-decoration-color': 'ff561e',
-        },
-      }
-      addUtilities(extendUnderline)
-    }
-  ],
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/line-clamp"),
+    require("@tailwindcss/aspect-ratio"),
+],
 }
