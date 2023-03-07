@@ -8,19 +8,26 @@ import Features from "components/Home/Features";
 import CTA from "components/Home/CTA";
 import LogoCloud from "components/Home/LogoCloud";
 import BlockList from "components/Home/BlogList";
+import { useEffect } from 'react';
+
 
 function Home(){
+    
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, []);
+
     return(
         <Layout>
             <Navbar/>
             <div className="pt-32">
-            <Header/>
-            <Incentives/>
-            <UseCases/>
-            <Features/>
-            <CTA/>
-            <LogoCloud/>
-            <BlockList/>
+                <Header/>
+                <Incentives/>
+                <UseCases/>
+                <Features/>
+                <CTA/>
+                <LogoCloud/>
+                <BlockList/>
             </div>
             <Footer/>
         </Layout>

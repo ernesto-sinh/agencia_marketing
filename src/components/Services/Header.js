@@ -6,11 +6,10 @@ export default function Header(){
             <div>
               <div>
                 <h1 className="text-4xl font-semibold tracking-tight pb-16  sm:text-7xl">
-                  Cases Studies
+                Software Development Services
                 </h1>
                 <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                    amet fugiat veniam occaecat fugiat aliqua.
+                We love to shake established thought-patterns and create what has never been attempted before. We take seeds and grow jungles
                 </p>
               </div> 
               <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
